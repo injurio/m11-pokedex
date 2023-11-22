@@ -1,11 +1,11 @@
 import axios from 'axios'
 
 const apiClient = axios.create({
-    baseURL: 'https://my-json-server.typicode.com/apivit45muic/pokedexdata',  // notice that it doesn't include books
+    baseURL: 'https://my-json-server.typicode.com/injurio/pokedata',  
     withCredentials: false,
     headers: {
-        Accept: 'application/json',   // what client expect
-        'Content-Type': 'application/json' // descriping our request content (none here)
+        Accept: 'application/json',   
+        'Content-Type': 'application/json' 
     }
 })
 
